@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand alignment with existing system */
+:root {
+  --brand-red: #dc2626;
+  --brand-blue: #2563eb;
+}
+
+body {
+  @apply bg-gradient-to-br from-blue-100 via-blue-50 to-green-100;
+}
+
+
